@@ -4,10 +4,11 @@ fn main() {
         let y = is_prime(x);
         if y {
             mycount += 1; 
+            //print!("The current progress {}\n",mycount);
         }
     }
 
-    print!("The number of primes is {}\n",mycount);
+    print!("The number of primes is {} Rust\n",mycount);
 }
 
 fn is_prime(n: u32) -> bool {

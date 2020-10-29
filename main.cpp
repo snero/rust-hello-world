@@ -15,7 +15,7 @@ int main()
 	 mycount++;
    }
 
-   std::cout << "There are " << mycount << " primes.\n";
+   std::cout << "There are " << mycount << " primes C++.\n";
    return 0;
 }
 

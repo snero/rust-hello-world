@@ -22,5 +22,5 @@ func main() {
 			//fmt.Printf("%v ", i)
 		}
 	}
-	fmt.Printf("Number of primes in 1000000 is %v\n", n)
+	fmt.Printf("Number of primes in 1000000 is %v\n GO", n)
 }
