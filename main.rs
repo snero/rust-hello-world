@@ -1,7 +1,13 @@
 fn main() {
+    let mut mycount = 0;
     for x in 0..1000000 {
-        let y = is_prime(25);
+        let y = is_prime(x);
+        if y {
+            mycount += 1; 
+        }
     }
+
+    print!("The number of primes is {}\n",mycount);
 }
 
 fn is_prime(n: u32) -> bool {
