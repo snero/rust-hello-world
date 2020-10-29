@@ -15,12 +15,12 @@ func IsPrime(value int) bool {
 }
 
 func main() {
-	var i int
+	n := 0
 	for i := 1; i <= 1000000; i++ {
 		if IsPrime(i) {
-			i++
+			n++
 			//fmt.Printf("%v ", i)
 		}
 	}
-	fmt.Printf("Number of primes in 1000000 is %v\n", i)
+	fmt.Printf("Number of primes in 1000000 is %v\n", n)
 }
