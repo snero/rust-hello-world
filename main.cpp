@@ -11,7 +11,7 @@ int main()
       // isPrime will be true for prime numbers
       isPrime = isPrimeNumber(n);
 
-      if(isPrime == true)
+      if(isPrime)
 	 mycount++;
    }
 
